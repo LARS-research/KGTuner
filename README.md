@@ -1,15 +1,11 @@
 # KGTuner
 Official code for the paper "KGTuner: Efficient Hyper-parameter Search for Knowledge Graph Learning" (ACL 2022 long paper).
 
-[TOC]
-
 ## Overview
 
-<img src="./misc/KGTuner.pdf" alt="KGTuner" style="zoom: 67%;" />
+<img src="./misc/KGTuner.jpg" alt="KGTuner" style="zoom: 50%;" />
 
 We propose an efficient two-stage search algorithm, KGTuner, which efficiently explores HP configurations on small subgraph at the first stage and transfers the top-performed configurations for fine-tuning on the large full graph at the second stage.
-
-
 
 ## Instructions
 
@@ -71,8 +67,6 @@ example:
 python3 showResults.py -dataset wn18rr -model ComplEx
 ```
 
-
-
 ## Results
 
 WN18RR
@@ -119,13 +113,9 @@ ogbl-wikikg2
 | TransE   | 0.4739±0.0021 | 0.4932±0.0013 | 250,113,900 |
 | AutoSF   | 0.5222±0.0021 | 0.5397±0.0023 | 250,113,900 |
 
-
-
 ## Reproduction
 
 Detailed commands can be found in `code/scripts/reproduce.sh`.
-
-
 
 ## Citation
 
