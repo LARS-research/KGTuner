@@ -128,7 +128,11 @@ Detailed commands can be found in `code/scripts/reproduce.sh`.
 ## Citation
 
 If you find this repository useful in your research, please kindly cite our paper.
-```
-The bib is incoming.
-```
+
+    @inproceedings{zhang2022kgtuner,
+        title={KGTuner: Efficient Hyper-parameter Search for Knowledge Graph Learning},
+        author={Zhang, Yongqi and Zhou, Zhanke and Yao, Quanming and Li, Yong},
+        booktitle={ACL},
+        year={2022}
+    }
 
